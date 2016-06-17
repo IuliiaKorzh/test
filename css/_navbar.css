@@ -1,0 +1,19 @@
+.navbar__text {
+  float: left;
+}
+
+.navbar__nav {
+  float: right;
+}
+
+.navbar__item {
+  display: inline-block;
+}
+
+.navbar__link {
+  display: block;
+}
+
+.logo img {
+  display: block;
+}

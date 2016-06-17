@@ -1,0 +1,22 @@
+.feature {
+    margin-bottom: 30px;
+    &__title {}
+    &__icon {
+        font-size: 40px;
+        width: 40px
+        &--sm {
+            font-size: 20px;
+        }
+    }
+    &__description {}
+    &__header {}
+    &__row {
+        display: table;
+            > div {
+                display: table-cell;
+            }
+    }
+    &--center{
+        text-align: center;
+    }
+}
